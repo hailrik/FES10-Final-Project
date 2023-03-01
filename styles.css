@@ -25,7 +25,7 @@ h4,
 h5,
 h6,
 span {
-  color: #242424;
+  color: #243e63;
   line-height: 1.25;
   text-align: center;
 }
@@ -120,8 +120,8 @@ button:hover {
   border-color: #6415ff;
 }
 
-.nav__link--login{
-    margin-left: 48px;
+.nav__link--login {
+  margin-left: 48px;
 }
 
 .nav__link--sign-up {
@@ -230,4 +230,88 @@ input:hover {
   display: flex;
   justify-content: end;
   align-items: start;
+}
+
+/* FEATURES */
+
+
+.features__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.features__text {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.features__title {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.features__description {
+  max-width: 576px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  margin-left: 8px;
+}
+
+.feature {
+  width: 25%;
+  display: flex;
+  margin: 32px 8px;
+}
+
+.feature__container {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.feature__icon--container {
+  width: 66px;
+  height: 66px;
+  flex-shrink: 0;
+  border: 1px #243e63 solid;
+  border-radius: 9999px;
+  padding: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.feature__description {
+  margin: 8px 0 0 16px;
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feature__name {
+  font-size: 24px;
+}
+
+.feature__para {
+  margin-top: 16px;
+  color: #7c8ba1;
+  font-size: 16px;
+  font-weight: 500;
 }
