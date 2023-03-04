@@ -95,7 +95,8 @@ button {
   align-items: center;
 }
 
-.nav__logo--container {
+.nav__logo--container,
+.footer__logo--container {
   margin-left: 0px !important;
   display: flex;
   justify-content: center;
@@ -798,3 +799,136 @@ input:hover {
   margin: 0 0 0.5rem 0;
   position: relative;
 }
+
+/* START */
+
+.start__container {
+    margin-bottom: 96px;
+}
+
+.start__box {
+  background-color: #6415ff;
+  width: 100%;
+  padding: 96px 0;
+  border-radius: 8px;
+}
+
+.start__row {
+  margin: 0 128px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start__text {
+  width: 50%;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start__button--container {
+  width: 50%;
+  max-height: 66px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.start__button-1,
+.start__button-2 {
+  font-size: 16px;
+  margin-top: 0px;
+  padding: 20px 40px;
+}
+
+.start__button-1 {
+  background: rgb(245 101 101);
+  margin-right: 32px;
+}
+
+.start__button-2 {
+  border: 1px rgb(160 174 192) solid;
+}
+
+/* FOOTER */
+
+footer {
+  background: #6415ff;
+  margin: -32px;
+}
+
+.footer__column--container {
+  padding: 80px 32px;
+}
+
+.footer__lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+
+.footer__list {
+  margin-top: 48px;
+}
+
+.footer__name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 20px;
+  text-align: left;
+  color: white;
+}
+
+.footer__links {
+  margin-top: 24px;
+}
+
+.footer__link--container {
+  margin-top: 12px;
+}
+
+.footer__link {
+  font-size: 14px;
+  color: white;
+}
+
+.footer__divider {
+  border: 1px #71809661 solid;
+  margin: 64px 0;
+  max-width: 100%;
+}
+
+.footer__bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  color: white;
+}
+
+.footer__logo--text {
+  color: white;
+}
+
+.footer__social--container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__copyright {
+  color: #718096;
+}
+
+.footer__logo {
+  padding-left: 8px;
+  filter: invert(1);
+}
+
